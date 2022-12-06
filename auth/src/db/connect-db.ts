@@ -7,6 +7,8 @@ const connectDb = async () => {
         console.log('Connected to Auth Database')
     } catch (err) {
         console.error(err);
+
+        
         process.exit(1);
     }
 }
