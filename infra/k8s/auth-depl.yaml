@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: auth
-          image: us.gcr.io/shaped-apogee-178000/auth
+          image: keysoutsourcedocker/auth
           env:
             - name: MONGO_URI
               value: mongodb://auth-mongo-srv:27017/auth

@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: client
-          image: us.gcr.io/shaped-apogee-178000/client
+          image: keysoutsourcedocker/client
 ---
 apiVersion: v1
 kind: Service
