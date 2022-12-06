@@ -15,6 +15,7 @@ spec:
       containers:
         - name: client
           image: keysoutsourcedocker/client
+          
 ---
 apiVersion: v1
 kind: Service
